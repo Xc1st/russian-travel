@@ -4,7 +4,7 @@
     list-style: none;
     padding: 0;
 }
-@media screen and (max-width : 1024px) {
+@media screen and (max-width: 1024px) {
     .place { 
         margin: 0 auto 73px;
     }
