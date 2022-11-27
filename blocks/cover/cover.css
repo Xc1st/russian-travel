@@ -6,21 +6,24 @@
     background-size: cover;
     background-repeat: no-repeat;
 }
+
 @media screen and (max-width: 1024px) {
-    .cover{
+    .cover {
         width: 100%;
     }
-    
+
 }
+
 @media screen and (max-width: 768px) {
-    .cover{
+    .cover {
         margin: 0 auto 86px;
     }
-    
+
 }
+
 @media screen and (max-width: 540px) {
-    .cover{
+    .cover {
         margin: 0 auto 64px;
     }
-    
+
 }
