@@ -9,7 +9,7 @@
         margin: 0 auto 73px;
     }
 }
-@media screen and (max-width : 600px) {
+@media screen and (max-width: 600px) {
     .place { 
         margin: 0 auto 50px;
     }
