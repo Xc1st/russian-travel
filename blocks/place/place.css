@@ -1,0 +1,16 @@
+.place {
+    max-width: 984px;
+    margin: 0 auto 80px;
+    list-style: none;
+    padding: 0;
+}
+@media screen and (max-width : 1024px) {
+    .place { 
+        margin: 0 auto 73px;
+    }
+}
+@media screen and (max-width : 600px) {
+    .place { 
+        margin: 0 auto 50px;
+    }
+}

@@ -1,0 +1,12 @@
+.footer__copyright {
+    max-width: 186px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: right;
+    margin: 0;
+    transition: opacity 0.15s ease-in;
+}
+.footer__copyright:hover{
+opacity: 0.8;
+}
