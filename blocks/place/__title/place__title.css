@@ -5,18 +5,20 @@
     line-height: 76px;
     margin: 0;
 }
-@media screen and (max-width: 768px) {
-    .place__title  { 
-    font-size: 42px;
-    line-height: 46px;
-    max-width: 328px;
+
+@media screen and (max-width: 900px) {
+    .place__title {
+        font-size: 42px;
+        line-height: 46px;
+        max-width: 328px;
     }
 }
+
 @media screen and (max-width: 320px) {
-    .place__title  { 
+    .place__title {
         font-size: 32px;
         line-height: 35px;
-    width: calc(100% - 2*16px);
-    margin: 0 auto;
+        width: calc(100% - 2*16px);
+        margin: 0 auto;
     }
 }

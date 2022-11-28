@@ -1,26 +1,28 @@
 .lead {
     width: calc(100% - 2 * 148px);
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     margin: 56px auto 92px;
     color: #FFFFFF;
 }
-@media screen and (max-width: 1024px) {
+
+@media screen and (max-width: 1100px) {
     .lead {
         width: calc(100% - 2 * 48px);
         margin: 48px auto 92px;
     }
-    
+
 }
+
 @media screen and (max-width: 768px) {
     .lead {
         width: 100%;
         margin: 48px auto 88px;
     }
-    
+
 }
+
 @media screen and (max-width: 320px) {
     .lead {
         margin: 48px auto 64px;
     }
-    
+
 }

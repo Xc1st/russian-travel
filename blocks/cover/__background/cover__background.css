@@ -10,6 +10,7 @@
     justify-content: center;
     z-index: 1;
 }
+
 .cover__background::before {
     display: block;
     content: "";
@@ -18,24 +19,27 @@
     top: 0;
     width: 100%;
     height: 100%;
-    background: #2A2C2F;
-    opacity: 0.3;
+    background-color: rgba(42, 44, 47, 0.3);
 }
-.cover__background:hover {
-    background: rgba(42, 44, 47, 0.8);
+
+.cover__background:hover::before {
+    background-color: rgba(42, 44, 47, 0.8);
 }
+
 @media screen and (max-width: 1024px) {
-    .cover__background{
+    .cover__background {
         min-height: 640px;
     }
 }
+
 @media screen and (max-width: 768px) {
-    .cover__background{
+    .cover__background {
         min-height: 480px;
     }
 }
+
 @media screen and (max-width: 540px) {
-    .cover__background{
+    .cover__background {
         min-height: 200px;
     }
 }
